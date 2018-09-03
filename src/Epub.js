@@ -360,6 +360,7 @@ class Epub extends Component {
         backgroundColor={this.props.backgroundColor}
         onError={this.props.onError}
         onDisplayed={this.props.onDisplayed}
+        containerStyle={this.props.containerStyle}
       />
     );
   }

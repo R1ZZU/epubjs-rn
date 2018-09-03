@@ -425,6 +425,7 @@ class Rendition extends Component {
             {
               backgroundColor: this.props.backgroundColor || '#FFFFFF',
             },
+            this.props.containerStyle,
           ]}
           scalesPageToFit={false}
           bounces={false}
